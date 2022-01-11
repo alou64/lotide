@@ -12,5 +12,5 @@ const assertArraysEqual = (arr1, arr2) => {
     return;
   }
   
-  return console.log(tmsg);
+  console.log(tmsg);
 };
