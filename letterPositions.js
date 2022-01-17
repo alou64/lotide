@@ -12,3 +12,5 @@ const letterPositions = str => {
   }
   return ans;
 };
+
+module.exports = letterPositions;
