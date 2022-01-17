@@ -7,8 +7,3 @@ const map = function(array, callback) {
 };
 
 module.exports = map;
-
-// let arr = [1, 2, 3];
-// assertArraysEqual(map(arr, num => num + 1), [2, 3, 4]);
-// assertArraysEqual(map(arr, num => num * 3), [3, 6, 9]);
-// assertArraysEqual(map(arr, num => num.toString()), ['1', '2', '3']);

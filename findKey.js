@@ -6,12 +6,3 @@ const findKey = (obj, callback) => {
 };
 
 module.exports = findKey;
-
-// const months = {
-//   'jan': 1,
-//   'feb': 2,
-//   'mar': 3
-// };
-//
-// assertEqual(findKey(months, x => x === 3), 'mar');
-// assertEqual(findKey(months, x=> typeof x === 'number'), 'jan');

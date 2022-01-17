@@ -5,8 +5,3 @@ const takeUntil = (arr, callback) => {
 };
 
 module.exports = takeUntil;
-
-// const arr = [1, 2, 3, 4]
-// assertArraysEqual(takeUntil(arr, num => num > 3), [1, 2, 3]);
-// assertArraysEqual(takeUntil(arr, num => num === 4), [1, 2, 3]);
-// assertArraysEqual(takeUntil(arr, num => num < 3), []);
