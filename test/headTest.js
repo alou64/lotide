@@ -1,4 +1,3 @@
-const assertEqual = require('../assertEqual');
 const head = require('../head');
 const assert = require('chai').assert;
 
@@ -15,5 +14,3 @@ describe("#head", () => {
    assert.strictEqual(head([1, 2, 3]), 1);
   });
 });
-
-//assertEqual(head([1, 2, 3]), 1);
